@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: reactiveapi
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/?readPreference=primary&directConnection=true&ssl=false
+      database: reactiveDB
